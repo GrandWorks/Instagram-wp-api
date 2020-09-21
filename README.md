@@ -31,3 +31,10 @@ define('INSTAGRAM_CLIENT_SECRET', '<your instagram app secret>');
 
 ### Upload the plugin to your WordPress site and activate it
 After activating the plugin you will see a message in the Wordpress Admin asking you to authenticate the Instagram account you added as a test user in the previous step.
+
+### API Endpoints
+Currently there is only one end point
+
+```/instagramapi/v1/instafeed/<count>```
+
+Eg: To fetch 10 instagram posts ```YOUR DOMAIN/wp-json/instagramapi/v1/instafeed/10```
