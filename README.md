@@ -38,3 +38,6 @@ Currently there is only one end point
 ```/instagramapi/v1/instafeed/<count>```
 
 Eg: To fetch 10 instagram posts ```YOUR DOMAIN/wp-json/instagramapi/v1/instafeed/10```
+
+### Attribution
+https://github.com/msigley/WP-Instagram-API
